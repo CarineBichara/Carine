@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -110,5 +111,3 @@ else:
 town = st.selectbox("Select Town", data['Town'].unique())
 filtered_data = data[data['Town'] == town]
 chart_type = st.radio("Select Chart Type", ['Scatter Plot', 'Pie Chart', 'Line Chart', '3D Scatter Plot', 'Bar Chart'])
-
-
