@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 
 # Full path to the Excel file
-file_path = r'C:\Users\User\PycharmProjects\pythonProject2\data.xlsx'
+file_path = r'C:\Users\User\Downloads\data.xlsx'
 
 # Check if the file exists
 if os.path.exists(file_path):
